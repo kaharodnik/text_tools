@@ -7,7 +7,7 @@ def count_words(filename):
                     words = contents.split()
                     num_words = len(words)
                     num_types = len(set(words))
-                    print(f"the file {filename} has about {num_words} words and {num_types} unique words.")
+                    print(f"the file {filename} has {num_words} words and {num_types} unique words.")
                     
 filenames = ['shakespeare-hamlet.txt', 'shakespeare-macbeth.txt']
 
