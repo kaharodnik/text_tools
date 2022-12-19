@@ -6,5 +6,5 @@ def count_words(filename):
         num_types = len(set(words))
         print(f"the file {filename} has about {num_words} words and {num_types} unique words.")
                 
-filename = 'shakespeare-caesar.txt'
+filename = 'shakespeare-macbeth.txt'
 count_words(filename)
