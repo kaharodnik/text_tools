@@ -16,8 +16,7 @@ def count_words(filename):
         num_types = len(set(words))
         print(f"the file {filename} has about {num_words} words and {num_types} unique words.")
 
-
-dir = 'C://Users//Katya//Desktop//text//gutenberg'
+dir = "C://Users//Katya//Desktop//Teaching_Fall_2022//TextTools_Fall_22_KA//python_ex//gutenberg"
 os.chdir(dir)
 for file in os.listdir(dir):
     if file.endswith(".txt"):
