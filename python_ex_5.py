@@ -1,3 +1,5 @@
+#!/bin/usr/env python3
+
 #counting number of words for files with .txt in a directory
 import os
 
